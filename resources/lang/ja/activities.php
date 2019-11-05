@@ -36,13 +36,13 @@ return [
     'book_sort_notification'      => '並び順を変更しました',
 
     // Bookshelves
-    'bookshelf_create'            => 'created Bookshelf',
-    'bookshelf_create_notification'    => 'Bookshelf Successfully Created',
-    'bookshelf_update'                 => 'updated bookshelf',
-    'bookshelf_update_notification'    => 'Bookshelf Successfully Updated',
-    'bookshelf_delete'                 => 'deleted bookshelf',
-    'bookshelf_delete_notification'    => 'Bookshelf Successfully Deleted',
+    'bookshelf_create'            => 'がシェルフを作成:',
+    'bookshelf_create_notification'    => 'シェルフを作成しました',
+    'bookshelf_update'                 => 'がシェルフを更新:',
+    'bookshelf_update_notification'    => 'シェルフを更新しました',
+    'bookshelf_delete'                 => 'がシェルフを削除:',
+    'bookshelf_delete_notification'    => 'シェルフを削除しました',
 
     // Other
-    'commented_on'                => 'commented on',
+    'commented_on'                => 'がコメント:',
 ];

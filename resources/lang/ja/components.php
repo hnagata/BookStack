@@ -23,7 +23,7 @@ return [
     'image_upload_success' => '画像がアップロードされました',
     'image_update_success' => '画像が更新されました',
     'image_delete_success' => '画像が削除されました',
-    'image_upload_remove' => 'Remove',
+    'image_upload_remove' => '削除',
 
     // Code Editor
     'code_editor' => 'プログラムブロック編集',
