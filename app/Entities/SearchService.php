@@ -183,7 +183,7 @@ class SearchService
             $subQuery->where('entity_type', '=', $entity->getMorphClass());
             $subQuery->where(function (Builder $query) use ($terms) {
                 foreach ($terms['search'] as $inputTerm) {
-                    $query->orWhere('term', 'like', $inputTerm .'%');
+                    $query->orWhere('term', 'like', '%'.$inputTerm .'%');
                 }
             })->groupBy('entity_type', 'entity_id');
             $entitySelect->join(\DB::raw('(' . $subQuery->toSql() . ') as s'), function (JoinClause $join) {
